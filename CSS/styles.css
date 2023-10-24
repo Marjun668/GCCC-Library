@@ -9,7 +9,7 @@
 #bookcontainer{
     display: grid;
     gap: 0px;
-    grid-template-rows: 70px 30px 230px 50px;
+    grid-template-rows: 100px 230px 40px;
     background-color: white;
     border: 2px solid black;
     flex: 33.33%;
@@ -27,12 +27,14 @@
     width: 150px;
     border-radius: 10px;
 }
-#bookcontainer .booktitle{
-    font-weight: bold;
-}
 #bookcontainer p{
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#bookcontainer p span{
+    font-weight: lighter;
 }
 #bookheading{
     display: flex;
@@ -59,7 +61,6 @@
     padding: 1px 10px;
     border-radius: 20px;
     background-color: #C6EFCE;
-    margin-bottom: 30px;
 }
 footer .logo{
     height: 40px;
@@ -80,10 +81,11 @@ footer .logo{
         width: 100px;
         border-radius: 10px;}
     #bookcontainer{
-            grid-template-rows: 70px 30px 180px 50px;}
-    #bookheading{
-            height: 100px;}
-        }
+        grid-template-rows: 100px 150px 40px;
+        flex: 50%;}
+    .status{
+        font-size: small;}
+    }
 @media (min-width: 576px) and (max-width: 767.98px) { 
     #bookheading p{
     font-size: 2em;}
