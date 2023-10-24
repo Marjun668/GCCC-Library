@@ -79,8 +79,10 @@ footer .logo{
         height: 150px;
         width: 100px;
         border-radius: 10px;}
-        #bookcontainer{
+    #bookcontainer{
             grid-template-rows: 70px 30px 180px 50px;}
+    #bookheading{
+            height: 100px;}
         }
 @media (min-width: 576px) and (max-width: 767.98px) { 
     #bookheading p{
