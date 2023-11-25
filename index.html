@@ -6,12 +6,16 @@
     <title>GCCC Library</title>
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./Java/javascript.js"></script>
   </head>
   <body>
    <div class="maincontainer">
     <div id="bookheading">
         <p>GCCC Library</p>
         <img src="./Image/GCCC logo square.jpg" alt="Nine Marks of a Healthy Church">
+    </div>
+    <div class="BOTW-CONT" id="BOTWcont" onclick="closeZoom()">  <!-- BOTWcont means Book of the week container -->
+        <div id="zimagecon"> <img class="BOTW-image" id="zoomedImg" src="./Image/BOOK of The week/Dig Deeper.jpg" /></div>
     </div>
         <div id="bookcontainer">
             <div class="bcontent"><p>Nine Marks of a Healthy Church<br><span>by Mark Dever</span></p></div>
@@ -35,7 +39,7 @@
         </div>
         <div id="bookcontainer">
             <div class="bcontent"><p>Dig Deeper<br><span>by Nigel Beynon & Andrew Sach</span></p></div>
-            <div class="bcontent"><img src="./Image/BOOKS/Dig Deeper.png" alt="Dig Deeper"></div>
+            <div class="bcontent"><img src="./Image/BOOKS/Dig Deeper.png" alt="Dig Deeper" onclick="book5()"></div>
             <div class="bcontent"><div class="status Available">Available</div></div>
         </div>
         <div id="bookcontainer">
@@ -65,7 +69,7 @@
         </div>
         <div id="bookcontainer">
             <div class="bcontent"><p>Name Above All Names<br><span>by Alistair Begg & Sinclair B. Ferguson</span></p></div>
-            <div class="bcontent"><img src="./Image/BOOKS/Name Above All Name.png" alt="Name Above All Names"></div>
+            <div class="bcontent"><img src="./Image/BOOKS/Name Above All Name.png" alt="Name Above All Names" onclick="book11()"></div>
             <div class="bcontent"><div class="status Available">Available</div></div>
         </div>
         <div id="bookcontainer">
